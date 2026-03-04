@@ -28,3 +28,8 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+
+## How to run
+1. **Environment:** Ensure your virtual environment is active using 'source .venv/Scripts/activate'.
+2. **Execute:** Run the main script using 'python src/app.py' (or your main file).
+3. **Confirm:** Check the terminal output to confirm the feature or fix is working as expected.
