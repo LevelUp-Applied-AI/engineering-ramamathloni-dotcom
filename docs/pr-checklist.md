@@ -1,7 +1,6 @@
-# My Self-Review Checklist
-
-- [ ] **Logic:** Does the code actually do what the PR title says it does?
-- [ ] **Tests:** Have I run the tests, and do they all pass (Green)?
-- [ ] **Cleanup:** Have I removed all print(), breakpoint(), and temporary comments?
-- [ ] **Scope:** Is this PR focused on ONE logical change only?
-- [ ] **Docs:** Is the README updated to reflect any changes in how the code runs?
+# Self-Review Checklist
+- [ ] **Code Correctness:** Does the code perform the exact task described in the PR title?
+- [ ] **Test Coverage:** Have I run all existing scripts, and do they execute without errors?
+- [ ] **Documentation:** Is the README.md updated and does it accurately reflect the project state?
+- [ ] **Scope Check:** Does this PR focus on a single task without including unrelated changes?
+- [ ] **No Debug Artifacts:** Have I removed all temporary print statements and unnecessary comments?
